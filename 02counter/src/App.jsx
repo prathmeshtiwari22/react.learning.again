@@ -6,7 +6,13 @@ function App() {
 
   const addValue = ()=>{
       console.log("clicked",counter);
-      setcounter(counter+1);
+      setcounter((prevCounter)=> prevCounter+1);
+      //  setcounter(counter+1);
+      //   setcounter(counter+1);
+      //    setcounter(counter+1);
+      setcounter((prevCounter)=> prevCounter+1);
+      setcounter((prevCounter)=> prevCounter+1);
+      setcounter((prevCounter)=> prevCounter+1);
   }
   const removeValue = ()=> {
     console.log("clicked",counter);
